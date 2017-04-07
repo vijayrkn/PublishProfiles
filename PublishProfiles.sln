@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EEB055E9-142E-4F3D-9F0A-7AB5EBD5F441}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{437C94C7-BDD9-4D37-A29E-C7CFB74068F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{0BF293E6-D2AD-450E-8FDB-C50329F809D4}"
+	ProjectSection(SolutionItems) = preProject
+		samples\DockerProfile.pubxml = samples\DockerProfile.pubxml
+		samples\FileSystemProfile.pubxml = samples\FileSystemProfile.pubxml
+		samples\MsDeployPackageProfile.pubxml = samples\MsDeployPackageProfile.pubxml
+		samples\MsDeployProfile.pubxml = samples\MsDeployProfile.pubxml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublishProfileContracts", "src\PublishProfileContracts\PublishProfileContracts.csproj", "{E2A1654F-7959-4CC3-B739-2FDA40A5EC04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublishProfileManager", "src\PublishProfileManager\PublishProfileManager.csproj", "{7622068A-ADF0-491F-BA23-E463FD9BD382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishProfileManagerTests", "test\PublishProfileManagerTests\PublishProfileManagerTests.csproj", "{C983B7E6-1060-486E-A78A-868D440BD739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2A1654F-7959-4CC3-B739-2FDA40A5EC04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A1654F-7959-4CC3-B739-2FDA40A5EC04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A1654F-7959-4CC3-B739-2FDA40A5EC04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A1654F-7959-4CC3-B739-2FDA40A5EC04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7622068A-ADF0-491F-BA23-E463FD9BD382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7622068A-ADF0-491F-BA23-E463FD9BD382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7622068A-ADF0-491F-BA23-E463FD9BD382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7622068A-ADF0-491F-BA23-E463FD9BD382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C983B7E6-1060-486E-A78A-868D440BD739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C983B7E6-1060-486E-A78A-868D440BD739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C983B7E6-1060-486E-A78A-868D440BD739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C983B7E6-1060-486E-A78A-868D440BD739}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2A1654F-7959-4CC3-B739-2FDA40A5EC04} = {EEB055E9-142E-4F3D-9F0A-7AB5EBD5F441}
+		{7622068A-ADF0-491F-BA23-E463FD9BD382} = {EEB055E9-142E-4F3D-9F0A-7AB5EBD5F441}
+		{C983B7E6-1060-486E-A78A-868D440BD739} = {437C94C7-BDD9-4D37-A29E-C7CFB74068F9}
+	EndGlobalSection
+EndGlobal
